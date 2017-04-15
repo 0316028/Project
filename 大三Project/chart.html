@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://use.fontawesome.com/9df0268583.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" />
+    <link type="text/css" rel="stylesheet" href="http://gregfranko.com/jquery.selectBoxIt.js/css/jquery.selectBoxIt.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script src="http://gregfranko.com/jquery.selectBoxIt.js/js/jquery.selectBoxIt.min.js"></script>
+    <link rel="stylesheet" href="chart.css">
+    <script src="chart.js"></script>
+  </head>
+  <body>
+    <div>
+
+      <div class="select-container">
+        <select  id="mySelect">
+          <option value="hide">-- 選擇區間 --</option>
+          <option value="Day">最近一天</option>
+          <option value="Week">最近一星期</option>
+      <!--    <option value="Month">最近一個月</option> -->
+        </select>
+      </div>
+
+    <!--  <form action="/action_page.php">
+        <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+      </form> -->
+
+
+
+      <div class="icon-container">
+        <i class="fa fa-bar-chart fa-5x" aria-hidden="true" id="ChartIcon"></i>
+      </div>
+
+    </div>
+    <div class="canvas-container">
+      <canvas id="myChart"></canvas>
+    </div>
+  </body>
+</html>

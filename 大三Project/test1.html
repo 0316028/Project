@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Icon/Image Select: Basic Example (Javascript)</title>
+
+        <link rel="stylesheet" type="text/css" href="iconselect.css" >
+        <script type="text/javascript" src="iconselect.js"></script>
+        
+        <script type="text/javascript" src="iscroll.js"></script>
+        
+        <script>
+            
+        var iconSelect;
+        var selectedText;
+
+        window.onload = function(){
+            
+            selectedText = document.getElementById('selected-text');
+            
+            document.getElementById('my-icon-select').addEventListener('changed', function(e){
+               selectedText.innerHTML = iconSelect.getSelectedValue();
+            });
+            
+            iconSelect = new IconSelect("my-icon-select");
+
+            var icons = [];
+          icons.push({'iconFilePath':'https://s26.postimg.org/xx1c25n7p/image.png', 'iconValue':'1','IconText':'MacAddress : 101a18000035<br>2017.1.25. 8:53:40'});
+          icons.push({'iconFilePath':'https://s26.postimg.org/5y76ball1/image.png', 'iconValue':'2','IconText':'MacAddress : 101a18000035<br>2017.1.25. 8:544:40'});
+          icons.push({'iconFilePath':'https://s26.postimg.org/npispr0zp/image.png', 'iconValue':'3','IconText':'MacAddress : 101a18000035<br>2017.1.25. 8:53:40'});
+            
+            
+            iconSelect.refresh(icons);
+            
+
+
+        };
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        <h2>Icon/Image Select: Basic Example (Javascript)</h2>
+        
+        <div id="my-icon-select"></div>
+        
+        <div id="selected-text" ></div>
+        
+    </body>
+</html>
