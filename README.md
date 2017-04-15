@@ -8,7 +8,7 @@
 </div>
 <div style="font-family:sans-serif;margin-top:10px;">
 	<div style = "font-size:20px;margin-left:25px;">BagUI</div>
-	<img src = "https://s22.postimg.org/pmlltbx35/Bag_UI.png" style = "width:375px;;margin-left:25px;">
+	<img src = "https://s22.postimg.org/pmlltbx35/Bag_UI.png" style = "width:100px;;margin-left:25px;">
     <div style = "display:inline;font-size:20px;position:absolute;">
     <div style = "margin-top:10px;margin-left:10px;">目前背包的功能有:</div>
     
