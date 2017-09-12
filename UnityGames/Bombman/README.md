@@ -18,16 +18,14 @@
 <img src="https://s26.postimg.org/5jmeag3l5/Object.png" width="500">
 
 * 程式流程:
-<img src="https://s26.postimg.org/4sto4o17t/MVCModel.png" width="500">
+<img src="https://s26.postimg.org/z020cv9yh/Flow.png" width="500">
 
 ### 3.地圖系統:
 * 依Node為單位作為物件所在的依據，所有的物件都是在Node之間做移動。
-* 在遊戲開始前，把二維陣列的資料用我寫的Unity工具轉換成我們所使用的Node表示法(Ex : 0 1 2 3 4 代表編號0的Node的上下左右分別為編號1 2 3 4的Node)，然後在開始遊戲時把每一關相對應的txt檔匯入成關卡資訊。
 
 ### 3.碰撞偵測:
 
-* 在同一個Node上的物件即為有碰撞。
-* 會動的物件在到達新的Node時，偵測自己Node的碰撞，因此不需要每個物件都對場面上所有的物件做判斷，只需要對一個Node上的物件做判斷即可，而且也可以省下判斷四邊形有無重疊的計算。
+* 
 
 ### 4.設計模式:
 
