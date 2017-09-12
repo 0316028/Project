@@ -3,13 +3,15 @@
 ===================
 
 ### 1.遊戲畫面
+#### 設定操作
+<img src="https://s26.postimg.org/uakcczzu1/Key_Set.png" width="500">
 
-<img src="https://s26.postimg.org/nlsx0skyx/Pacman_Game.png" width="500">
+#### 遊戲畫面
+<img src="https://s26.postimg.org/6xmauhjqh/Bombman_Game.png" width="500">
 
 ### 2.架構:
 
 <img src="https://s26.postimg.org/sgmlz2jah/Pacman.png" width="500">
-
 ### 3.地圖系統:
 * 依Node為單位作為物件所在的依據，所有的物件都是在Node之間做移動。
 * 在遊戲開始前，把二維陣列的資料用我寫的Unity工具轉換成我們所使用的Node表示法(Ex : 0 1 2 3 4 代表編號0的Node的上下左右分別為編號1 2 3 4的Node)，然後在開始遊戲時把每一關相對應的txt檔匯入成關卡資訊。
