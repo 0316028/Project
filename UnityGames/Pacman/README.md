@@ -33,7 +33,7 @@
 
 詳細的演算法:
 
-<img src="https://s26.postimg.org/m0oo5yl9l/Angle_1.png" width="300">
+<img src="https://s26.postimg.org/7ltq3rr55/Angle_2.png" width="300">
 
 	static int m_iDirectionNumber = 4;
 	static float m_fBaseAngle = 90f;
