@@ -1,8 +1,7 @@
 # MyHistoryProject
 
-* [Test](UnityGames/LittleBee/README.md)
-* [小蜜蜂](#LittleBee)<br/>
-* [小精靈](#Pacman)<br/>
+* [小蜜蜂](UnityGames/LittleBee/README.md)<br/>
+* [小精靈](UnityGames/Pacman/README.md)<br/>
 * [炸彈超人](#Bombman)<br/>
 * [UnrealProject](#UnrealProject)<br/>
 * [Labview](#Labview)<br/>
