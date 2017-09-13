@@ -6,6 +6,7 @@
 #### 設定操作
 <img src="https://s26.postimg.org/uakcczzu1/Key_Set.png" width="500">
 
+按攻擊鍵創角色
 #### 遊戲畫面
 <img src="https://s26.postimg.org/6xmauhjqh/Bombman_Game.png" width="500">
 
