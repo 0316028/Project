@@ -54,9 +54,11 @@ Action的Function有
 
 * 由於我的炸彈爆炸是用創四個物件去做四個方向的移動，然後在EnterNewNode時，在前一個Node創造一個火焰，並在撞到障礙物時停下來，由於要有爆炸的感覺，移動的物件必須要很快，因此有可能會發生:
 
-<img src="https://screenshot.net/tw/d8zlms8">
+<img src="https://hostr.co/file/970/3Vo9tIyQaC2a/SAT1.png" width="200">
 
 如果只是用當下的位子做判斷的話，是會判斷成沒有碰撞的，因此我把移動過的地方都加入判斷，只要在路徑上有碰撞到的都算碰撞。
+
+<img src="https://hostr.co/file/970/Gsr291VTXzUZ/Rectangle.png" width="200">
 
 而平行四邊形跟四邊形的判斷交疊我是用分離軸演算法，分離軸詳細資料可參考[分離軸演算法](http://www.itread01.com/articles/1486273109.html)。
 
