@@ -67,6 +67,7 @@ Unreal Project
 * 按兩下W鍵可進行跑步
 * 當手中有釣竿時按左鍵可進行釣魚
 
+<div id = "Labview" ></div>
 
 LabView
 ===================
@@ -76,6 +77,8 @@ LabView
 
 這是一款在比賽前先設定好自己方船的位子跟種類，然後在連線之後去猜測對方的船隻所在，先擊毀對方全部船艦的就獲勝。
 而這連線的部分是用Labview裡面的Datasocket。
+
+<div id = "Project" ></div>
 
 Project
 ===================
