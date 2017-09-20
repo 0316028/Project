@@ -3,9 +3,9 @@
 ===================
 
 ### 1.遊戲畫面
+<img src="https://s26.postimg.org/lbu0k8x61/Little_Bee.png" width="800">
 
 ### 2.架構:
-
 <img src="https://s26.postimg.org/66aoytueh/Little_Bee.png" width="500">
 
 ### 3.碰撞偵測:
